@@ -37,6 +37,7 @@ namespace SimpleAPI.Controllers
         }
 
         [HttpGet]
+        [Route("getname")]
         public string GetName()
         {
             return "TestName";
